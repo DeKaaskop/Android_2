@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    tools:context=".AddMessageActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/add_message_edittext_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="@string/add_message_title" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/add_message_edittext_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_message_edittext_title"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/add_message_text"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/add_message_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_message_edittext_text"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/add_message_imageview_description" />
+
+        <Button
+            android:id="@+id/pick_image_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_message_imageview"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/pick_image_button_text" />
+
+        <Button
+            android:id="@+id/add_message_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pick_image_button"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onButtonPostListener"
+            android:text="@string/add_message_button_text" />
+    </RelativeLayout>
+
+</ScrollView>

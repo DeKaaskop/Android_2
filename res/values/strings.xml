@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_connection">Er is geen internetverbinding. Zet uw internetverbinding aan.</string>
+
+    <!-- MAINACTIVITYLAYOUT -->
+    <string name="app_name">Eindopdracht</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="imageview_contentdescription">Plaatje van website</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="action_add">Voeg niew bericht toe</string>
+
+    <!-- ADDMESSAGELAYOUT -->
+    <string name="add_message_title">Titel</string>
+    <string name="add_message_text">Tekst</string>
+    <string name="pick_image_button_text">Voeg plaatje toe</string>
+    <string name="add_message_button_text">Post</string>
+    <string name="add_message_imageview_description">Plaatje</string>
+    <string name="add_message_from_camera">Van Camera</string>
+    <string name="add_message_from_sd_card">Van SD kaart</string>
+    <string name="add_message_title2">Kies plaatje</string>
+    <string name="add_message_complete_action_using">Eindig actie gebruikend</string>
+    
+    <string name="add_message_fill_both">Vul aub een titel en een tekst in</string>
+    <string name="add_message_fill_title">Vul aub een titel in</string>
+    <string name="add_message_fill_text">Vul aub een tekst in</string>
+    
+
+    <!-- MESSAGEACTIVITYLAYOUT -->
+    <string name="image_description">Bericht met titel</string>
+    <string name="action_share">Deel dit</string>
+    <string name="title_activity_add_message">AddMessageActivity</string>
+</resources>
